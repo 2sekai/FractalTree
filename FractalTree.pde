@@ -28,8 +28,8 @@ public void drawBranches(int x, int y, double branchLength, double angle)
     line(x, y, endX1, endY1);
     line(x, y, endX2, endY2);
   } else {
-    //stroke((int)(Math.random()*200)+90,0,(int)(Math.random()*80));  
-    stroke((int)(Math.random()*255)+180,120,(int)(Math.random()*150)+70);  
+    stroke((int)(Math.random()*200)+90,0,(int)(Math.random()*80));  
+    //stroke((int)(Math.random()*255)+180,120,(int)(Math.random()*150)+70);  
     line(x, y, endX1, endY1);
     line(x, y, endX2, endY2);
   }
